@@ -19,7 +19,9 @@ export const CreateBlog = () => {
     window.location.reload();
   };
 
+ 
   return (
+
     <form className="create-post-form" onSubmit={handleSubmit}>
       <input
         type="text"
