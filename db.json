@@ -1,24 +1,19 @@
 {
   "blogs": [
     {
-      "id": "1",
-      "name": "Blog name",
-      "description": "Blog description"
+      "id": "8d6b",
+      "name": "My Story",
+      "description": "coming soon"
     },
     {
-      "id": "19ed",
-      "name": "test",
-      "description": "testing here"
+      "id": "9bed",
+      "name": "My adventures",
+      "description": "coming soon"
     },
     {
-      "id": "70cf",
-      "name": "test1",
-      "description": "test1"
-    },
-    {
-      "id": "dae4",
-      "name": "ggg",
-      "description": "ggg"
+      "id": "dca8",
+      "name": "Fav books",
+      "description": "coming soon"
     }
   ]
 }

@@ -36,7 +36,9 @@ export const Home = ({ blogs, onBlogClick }) => {
           <div className="posts-container">
             {filteredBlogs.length > 0 ? (
               filteredBlogs.map((blog, index) => {
-                return <BlogCard key={index} blog={blog} onBlogClick={onBlogClick}/>;
+                return (
+                  <BlogCard key={index} blog={blog} onBlogClick={onBlogClick} />
+                );
               })
             ) : (
               <p>No blogs found</p>

@@ -2,8 +2,11 @@ import { useState } from 'react';
 
 // issiunciam reiksme i tevini komponenta:
 export const SearchContainer = ({ onSearch }) => {
+  
   const [searchValue, setSearchValue] = useState('');
 
+  // nusettina:
+  // iskviecia props:
   const handleInputChange = (value) => {
     setSearchValue(value);
     onSearch(value);
